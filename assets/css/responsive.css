@@ -1,0 +1,87 @@
+@media (max-width:1023px) {
+    #footer .socials-list {
+        font-size: 48px;
+    }
+    .place-buy-btn {
+        padding: 15px 16px;
+    }
+    .input-submit {
+        padding: 15px 16px;
+        line-height: 1.7;
+    }
+    #footer .copyright a {
+        padding: 15px 0;
+    }
+    .contact-form .form-control {
+        line-height: 2;
+    }
+}
+@media (max-width:739px) {
+    #nav{
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child {
+        display: inline-block;
+    }
+    /* #nav > li:first-child: con trực tiếp và là thằng con đầu tiên */
+    #nav li a {
+        padding: 1px 24px;
+    }
+    #header .search-btn{
+        display: none;
+    }
+    #header .mobile-menu-btn{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: block;
+    }
+    #content .content-section{
+        padding: 64px 16px 112px;
+    }
+    #header .mobile-menu-btn:hover {
+        background-color: #ccc;
+    }
+    #header .mobile-menu-btn:hover .menu-icon{
+        color: #000;
+    }
+    #header{
+        overflow: hidden;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding: 2px 41px;
+    }
+    #nav li:hover .subnav{
+        display: none;
+    }
+    .row {
+        display: block
+    }
+    #content .member-img {
+        width: 60%;
+    } 
+    .s-column-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
+    .s-full-width{
+        width: 100% !important;
+    }
+    
+}
+@media (min-width:1024px) {
+  
+}
+@media (min-width:740px) and (max-width: 1023px) {
+    
+}
